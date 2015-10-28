@@ -32,7 +32,7 @@ public class FindOptimalParametersForSPandTP {
      * @param PERMANENCE_INCREASE                   0.001 - 0.999
      * @param PERMANENCE_DECREASE                   0.001 - 0.999
      * @param MINIMAL_CONNECTED_PERMANENCE          0.1 - 0.9
-     * @param INITIAL_PERMANENCE                    > MINIMAL_CONNECTED_PERMANENCE 0.11 - 0.91
+     * @param INITIAL_PERMANENCE                    Greater than MINIMAL_CONNECTED_PERMANENCE 0.11 - 0.91
      * @param PERCENT_ACTIVE_SYNAPSES_THRESHOLD     0.1 - 0.9
      * @param EXPONENTIAL_MOVING_AVERAGE_AlPHA      0.001 - 0.9
      * @param MINIMUM_COLUMN_FIRING_RATE            0.01 - 0.9

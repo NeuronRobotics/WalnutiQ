@@ -4,7 +4,7 @@ import model.MARK_II.Region;
 
 /**
  * Input into LGN: activity of Cells within OldRetina.
- * <p/>
+ *  
  * Output of LGN: activity of Neurons from this Region.
  *
  * @author Quinn Liu (quinnliu@vt.edu)

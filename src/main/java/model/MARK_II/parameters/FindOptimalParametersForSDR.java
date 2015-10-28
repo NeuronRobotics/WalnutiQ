@@ -19,10 +19,10 @@ import java.util.Set;
  * Why: There are about a dozen parameters that are very important to how the
  * neurons in the model interact with each other. We need to find the best value
  * for these parameters to allow the brain algorithms to work efficiently.
- * <p/>
+ *  
  * What: This class contains many different ways a partial brain model can be
  * constructed.
- * <p/>
+ *  
  * How: A optimization algorithm will call 1 of the methods below over and over
  * until it has found parameters that produce the best score.
  *

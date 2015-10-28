@@ -21,7 +21,7 @@ public class SensorCellsToRegionRandomConnect extends
      * numberOfColumnsToOverlapAlongYAxisOfSensorCells = C_Y sensorCells.length
      * = SC_X sensorCells[0].length = SC_Y regionXAxisLength = R_X
      * regionYAxisLength = R_Y
-     * <p/>
+     *  
      * [(C_X + SC_X) * (C_Y + SC_Y)] / (R_X * R_Y) = # of Synapses created to
      * connect a SensorCellLayer to a leaf Region Column.
      */

@@ -2,7 +2,7 @@ package model.MARK_II;
 
 /**
  * Input to ProximalSegment: activity of active Synapses connected to this Segment.
- * <p/>
+ *  
  * Output from ProximalSegment: whether or not this Segment is currently active.
  *
  * @author Quinn Liu (quinnliu@vt.edu)

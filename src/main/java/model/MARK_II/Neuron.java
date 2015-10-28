@@ -5,14 +5,14 @@ import java.util.List;
 
 /**
  * Simulates a cortical pyramidal cell.
- * <p/>
+ *  
  * A real Neuron has many different states 1) 3 spikes per second 2) 10+ spikes
  * per second 3) 0 spikes per second Support: https://db.tt/QFqA4Dta
- * <p/>
+ *  
  * However this Neuron model only models 2 different states:
  * 1) active Neuron = any kind of spiking activity for a real Neuron
  * (implemented in Cell.java class)
- * <p/>
+ *  
  * 2) predictive Neuron = depolarized real Neuron
  *
  * @author Quinn Liu (quinnliu@vt.edu)
@@ -62,7 +62,7 @@ public class Neuron extends Cell {
      * segmentActive(s,t, state) is true. If multiple segments are active,
      * sequence segments are given preference. Otherwise, segments with most
      * activity are given preference.
-     * <p/>
+     *  
      * Return a DistalSegment that was active in the previous time step. If more
      * than one DistalSegment was active, sequence segments are considered. If
      * more than one sequence segment was active, the segment with the most

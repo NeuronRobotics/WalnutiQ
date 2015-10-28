@@ -3,7 +3,7 @@ package model.MARK_II;
 /**
  * A data structure that partly represents the connection strength from a
  * Segment to an Cell. Each Synapse has an Cell and has a permanenceValue. A
- * Synapse with permanenceValue >= 0.2 means that it is connected to an Cell.
+ * Synapse with permanenceValue Greater than or equal to 0.2 means that it is connected to an Cell.
  * This creates a binary connection from a Synapse to an Cell. For example a
  * permanenceValue of 0.19 means a Synapse is not connected to an Cell whereas a
  * permanenceValue of 0.205 does. Furthermore, A permanceValue of 0.9 will only
@@ -12,7 +12,7 @@ package model.MARK_II;
  * permanenceValue implementation strategy was done to make the learning
  * algorithms involving Synapses more efficient and minimally reduces the
  * learning algorithms performance.
- * <p/>
+ *  
  * There are 2 types of synapses in the brain. The MARK I Synapse data structure
  * models the chemical synapse and not the electrical synapse using the
  * following neuroscience ideas: 1) synaptic plasticity(also known as Hebbian
@@ -20,13 +20,13 @@ package model.MARK_II;
  * synapses from A to B are strengthened. 2) longterm potentiation/depression =
  * Experimentally observed increase/decrease in synaptic strength that lasts for
  * hours or days.
- * <p/>
+ *  
  * NOTE: When getting the activeState or previousActiveState of a Synapse make
  * sure to check that the Synapse is connected to it's Cell by calling
  * synapse.getConnectedState()
- * <p/>
+ *  
  * Input of Synapse: activity state of Cell.
- * <p/>
+ *  
  * Output of Synapse: whether this Synapse is connected or not to the Cell.
  *
  * @param <CellType> A synapse can be connected to either a SensorCell or a Neuron.
@@ -124,8 +124,8 @@ public class Synapse<CellType extends Cell> {
 
     /**
      * Increase the permanenceValue of a Synapse object by PERMANENCE_INCREASE
-     * while forcing permanenceValue to always be < 1.0.
-     * <p/>
+     * while forcing permanenceValue to always be less than 1.0.
+     *  
      * Simulates longterm potentiation in a real Synapse.
      */
     public void increasePermanence() {
@@ -135,8 +135,8 @@ public class Synapse<CellType extends Cell> {
 
     /**
      * Decrease the permanenceValue of a Synapse object by PERMANENCE_DECREASE
-     * while forcing permanenceValue to always be > 0.0.
-     * <p/>
+     * while forcing permanenceValue to always be greater than 0.0.
+     *  
      * Simulates longterm depression in a real Synapse.
      */
     public void decreasePermanence() {

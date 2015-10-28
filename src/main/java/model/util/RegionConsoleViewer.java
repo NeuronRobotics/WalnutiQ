@@ -63,7 +63,7 @@ public class RegionConsoleViewer {
      * 0 means the SensorCell is disconnected from the Synapse at that location.
      * Any number 2-9 represents the permanenceValue of the Synapse at that
      * location rounded down in the tenth decimal place.
-     * <p/>
+     *  
      * For example, a Synapse with a permanenceValue of 0.36 will be represented
      * as a 3 in the int[][] array being returned.
      */
