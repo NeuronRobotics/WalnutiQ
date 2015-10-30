@@ -7,10 +7,10 @@ import java.util.Set;
 /**
  * Uses the equation found here https://github.com/quinnliu/WalnutiQ/issues/21
  * for computating a score for the SDR created by spatial pooling.
- * <p/>
+ *  
  * Input from constructor: set of active column positions produced by spatial
  * pooling.
- * <p/>
+ *  
  * Output from calling public method: a score where the larger the score
  * represents a better sparse distributed representation.
  *

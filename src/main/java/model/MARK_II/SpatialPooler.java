@@ -60,13 +60,13 @@ public class SpatialPooler extends Pooler {
      * in the most recent iteration of spatial pooling. For example instead of
      * using:
      *
-     * Set<Column> columnActivity =
+     * Set Column columnActivity =
      * spatialPooler.performPooling();
      *
      * Now use:
      *
      * spatialPooler.performPooling();
-     * Set<ColumnPosition> columnActivity = this.spatialPooler.getActiveColumnPositions();
+     * Set ColumnPosition columnActivity = this.spatialPooler.getActiveColumnPositions();
      */
     public Set<ColumnPosition> getActiveColumnPositions() {
         return this.activeColumnPositions;

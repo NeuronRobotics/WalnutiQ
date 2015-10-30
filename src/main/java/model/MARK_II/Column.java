@@ -10,9 +10,9 @@ import java.util.List;
  * A data structure that represents a single Column of Neurons within a Region
  * object. A Column contains a ProximalSegment and properties that determine how
  * the Cells within this Column will be updated.
- * <p/>
+ *  
  * Input to Column: # of active Synapses from this Column's ProximalSegment.
- * <p/>
+ *  
  * Output from Column: if this Column is active or not during spatial pooling.
  *
  * @author Quinn Liu (quinnliu@vt.edu)
