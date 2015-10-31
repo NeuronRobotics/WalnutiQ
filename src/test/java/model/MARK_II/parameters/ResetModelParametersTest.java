@@ -1,8 +1,8 @@
 package model.MARK_II.parameters;
 
-import model.MARK_II.Cell;
-import model.MARK_II.Synapse;
-import model.MARK_II.VisionCell;
+import model.MARK_II.region.Cell;
+import model.MARK_II.region.Synapse;
+import model.MARK_II.sensory.VisionCell;
 
 /**
  * @author Quinn Liu (quinnliu@vt.edu)
@@ -13,6 +13,14 @@ public class ResetModelParametersTest extends junit.framework.TestCase {
     private Synapse synapse;
 
     public void setUp() {
+        // NOTE: when first testing this class I used preset values for MARK I
+        //       model without realizing I would want to change them in the
+        //       future. The following are the preset values:
+        Synapse.INITIAL_PERMANENCE = 0.3;
+        Synapse.MINIMAL_CONNECTED_PERMANENCE = 0.2;
+        Synapse.PERMANENCE_INCREASE = 0.02;
+        Synapse.PERMANENCE_DECREASE = 0.005;
+
         this.synapse = new Synapse<Cell>(new VisionCell(), 0, 0);
     }
 

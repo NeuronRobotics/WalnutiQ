@@ -1,7 +1,7 @@
 package model.MARK_II.connectTypes;
 
-import model.MARK_II.Column;
-import model.MARK_II.SensorCell;
+import model.MARK_II.region.Column;
+import model.MARK_II.sensory.SensorCell;
 
 /**
  * @author Quinn Liu (quinnliu@vt.edu)

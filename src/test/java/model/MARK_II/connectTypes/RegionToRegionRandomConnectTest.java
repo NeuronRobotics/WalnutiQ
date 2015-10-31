@@ -1,8 +1,8 @@
 package model.MARK_II.connectTypes;
 
 import junit.framework.TestCase;
-import model.MARK_II.Column;
-import model.MARK_II.Region;
+import model.MARK_II.region.Column;
+import model.MARK_II.region.Region;
 
 /**
  * @author Quinn Liu (quinnliu@vt.edu)

@@ -1,11 +1,11 @@
 package model.MARK_II.parameters;
 
-import model.MARK_II.Region;
-import model.MARK_II.SpatialPooler;
-import model.MARK_II.TemporalPooler;
 import model.MARK_II.connectTypes.AbstractSensorCellsToRegionConnect;
+import model.MARK_II.region.Region;
+import model.MARK_II.generalAlgorithm.SpatialPooler;
+import model.MARK_II.generalAlgorithm.TemporalPooler;
 import model.MARK_II.connectTypes.SensorCellsToRegionRectangleConnect;
-import model.Retina;
+import model.MARK_II.sensory.Retina;
 
 import java.awt.*;
 import java.awt.geom.Point2D;
@@ -77,9 +77,9 @@ public class FindOptimalParametersForSPandTP {
             spatialPooler.performPooling();
             temporalPooler.performPooling();
 
-            temporalPooler.getLearningAlgorithmStatistics().updateModelLearningMetrics(temporalPooler.getRegion());
-            totalNumberOfSequenceSegments += temporalPooler.getLearningAlgorithmStatistics()
-                    .getTotalNumberOfSequenceSegmentsInCurrentTimeStep();
+//            temporalPooler.getLearningAlgorithmStatistics().updateModelLearningMetrics(temporalPooler.getRegion());
+//            totalNumberOfSequenceSegments += temporalPooler.getLearningAlgorithmStatistics()
+//                    .getTotalNumberOfSequenceSegmentsInCurrentTimeStep();
             totalNumberOfLearningNeurons += temporalPooler
                     .getNumberOfCurrentLearningNeurons();
             temporalPooler.nextTimeStep();

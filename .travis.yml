@@ -5,5 +5,7 @@ cache:
   - $HOME/.m2
 
 jdk:
-  - openjdk7
   - oraclejdk8
+
+# for running tests on Travis CI container infrastructure for faster builds
+sudo: false

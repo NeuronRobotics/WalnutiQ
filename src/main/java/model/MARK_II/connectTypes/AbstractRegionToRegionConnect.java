@@ -1,6 +1,6 @@
 package model.MARK_II.connectTypes;
 
-import model.MARK_II.Column;
+import model.MARK_II.region.Column;
 
 /**
  * @author Quinn Liu (quinnliu@vt.edu)

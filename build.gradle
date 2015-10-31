@@ -19,7 +19,6 @@ sourceSets {
     test {
         java {
             srcDir 'src/test/java' // tests for all the main code
-            srcDir 'experiments' 
         }
         resources {
             srcDir 'images'
@@ -44,7 +43,7 @@ test {
 
 // create Gradle wrapper 
 task wrapper(type: Wrapper) {
-    gradleVersion = '1.12'
+    gradleVersion = '2.4'
 }
 
 
