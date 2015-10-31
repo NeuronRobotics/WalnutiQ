@@ -36,3 +36,6 @@ out/
 
 # Locally stored "Eclipse launch configurations"
 *.launch
+.project
+gradle.properties
+*~
