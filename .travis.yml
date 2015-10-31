@@ -1,5 +1,7 @@
 language: java
-
+script:
+#build the javadocs as part of the tests
+  gradle javadoc
 cache:
   directories:
   - $HOME/.m2
