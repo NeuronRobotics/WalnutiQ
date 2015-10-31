@@ -1,6 +1,6 @@
 package model.MARK_II.parameters;
 
-import model.MARK_II.ColumnPosition;
+import model.MARK_II.generalAlgorithm.ColumnPosition;
 
 import java.util.Set;
 

@@ -1,7 +1,8 @@
 package model.MARK_II;
 
 import model.MARK_II.connectTypes.RegionToRegionRectangleConnect;
-import model.util.Rectangle;
+import model.MARK_II.region.Region;
+import model.MARK_II.util.Rectangle;
 
 import java.awt.*;
 
@@ -15,15 +16,11 @@ public class NeocortexTest extends junit.framework.TestCase {
     private final int L4NPM = 1; // = layer 4 neurons per column
     private double PMO = 20; // = percent minimum overlap
     private int DLA = 3; // = desired local activity
-    private Rectangle connectionLocation;
+    private model.MARK_II.util.Rectangle connectionLocation;
     private Region A, B, C, D;
 
     public void setUp() {
         this.neocortex = new Neocortex(new Region("root", 10, 10, L3NPM, PMO, DLA), new RegionToRegionRectangleConnect());
-    }
-
-    public void test_addToCurrentRegion() {
-        // TODO:
     }
 
     public void test_getRegionWithoutCycle() {

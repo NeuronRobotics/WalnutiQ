@@ -1,12 +1,12 @@
 package model.MARK_II.parameters;
 
 import junit.framework.TestCase;
-import model.MARK_II.ColumnPosition;
-import model.MARK_II.Region;
-import model.MARK_II.SpatialPooler;
 import model.MARK_II.connectTypes.AbstractSensorCellsToRegionConnect;
+import model.MARK_II.generalAlgorithm.ColumnPosition;
+import model.MARK_II.region.Region;
+import model.MARK_II.generalAlgorithm.SpatialPooler;
 import model.MARK_II.connectTypes.SensorCellsToRegionRectangleConnect;
-import model.Retina;
+import model.MARK_II.sensory.Retina;
 
 import java.io.IOException;
 import java.util.HashSet;

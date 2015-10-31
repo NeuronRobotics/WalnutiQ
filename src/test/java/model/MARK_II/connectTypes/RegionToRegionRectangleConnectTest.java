@@ -5,8 +5,8 @@ import junit.framework.TestCase;
 import java.util.HashSet;
 import java.util.Set;
 
-import model.MARK_II.*;
-import model.util.Point3D;
+import model.MARK_II.region.*;
+import model.MARK_II.util.Point3D;
 
 /**
  * @author Nathan Waggoner(nwagg14@vt.edu)

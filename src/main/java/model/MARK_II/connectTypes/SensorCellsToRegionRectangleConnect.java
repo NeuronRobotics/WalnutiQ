@@ -1,6 +1,10 @@
 package model.MARK_II.connectTypes;
 
-import model.MARK_II.*;
+import model.MARK_II.region.Column;
+import model.MARK_II.region.Synapse;
+import model.MARK_II.sensory.SensorCell;
+import model.MARK_II.region.Cell;
+
 import java.awt.*;
 
 /**

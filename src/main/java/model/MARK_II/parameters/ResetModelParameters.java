@@ -1,9 +1,9 @@
 package model.MARK_II.parameters;
 
-import model.MARK_II.Column;
-import model.MARK_II.Segment;
-import model.MARK_II.SpatialPooler;
-import model.MARK_II.Synapse;
+import model.MARK_II.region.Column;
+import model.MARK_II.region.Segment;
+import model.MARK_II.generalAlgorithm.SpatialPooler;
+import model.MARK_II.region.Synapse;
 
 /**
  * @author Quinn Liu (quinnliu@vt.edu)
