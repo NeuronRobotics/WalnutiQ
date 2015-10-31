@@ -80,6 +80,19 @@ information please:
 
 ~ Q
 
+##Maven
+```
+<dependency>
+  <groupId>com.neuronrobotics</groupId>
+  <artifactId>WalnutiQ</artifactId>
+  <version>0.0.1</version>
+</dependency>
+```
+##Gradle
+
+```
+compile "com.neuronrobotics:WalnutiQ:0.0.1"
+```
 ## How
 Install all code with **[IntelliJ](#install-in-linuxmacwindows-with-intellij-recommended)**
 (Recommended) or **[Gradle](#install-in-linuxmacwindows-with-gradle)** for 
@@ -172,6 +185,8 @@ Linux/Mac/Windows and then read **[How to contribute](#how-to-contribute)**.
    prompt> ./gradlew build
    # hopefully all the tests still pass... :)
    ```
+   
+   
 
 #### How to contribute
 1. You need to be able to use Git & Github.com. If you don't know how I created
