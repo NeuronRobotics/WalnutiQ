@@ -85,13 +85,13 @@ information please:
 <dependency>
   <groupId>com.neuronrobotics</groupId>
   <artifactId>WalnutiQ</artifactId>
-  <version>0.0.1</version>
+  <version>2.3.1</version>
 </dependency>
 ```
 ##Gradle
 
 ```
-compile "com.neuronrobotics:WalnutiQ:0.0.1"
+compile "com.neuronrobotics:WalnutiQ:2.3.1"
 ```
 ## How
 Install all code with **[IntelliJ](#install-in-linuxmacwindows-with-intellij-recommended)**
