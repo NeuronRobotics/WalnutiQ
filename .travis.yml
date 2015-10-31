@@ -1,9 +1,7 @@
 language: java
 install: /bin/true
-before_script: 
-  - ./gradlew compileJava jar
 script: 
-  - ./gradlew javadoc test 
+  - ./gradlew compileJava jar javadoc test 
 cache:
   directories:
   - $HOME/.m2
