@@ -8,10 +8,10 @@ import java.io.IOException;
 
 /**
  * NOTE: Refer to Retina.java for summary of how a Retina is represented.
- * <p/>
+ * 
  * PROBLEM: When a user wants to create a NervousSystem object that is too large
  * for the Java Heap.
- * <p/>
+ * 
  * SOLUTION: This class provides the same public API as Retina.java but will
  * be loaded into the heap only when needed.
  *

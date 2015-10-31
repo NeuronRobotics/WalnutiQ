@@ -14,11 +14,11 @@ import java.io.IOException;
 
 /**
  * NOTE: Refer to Neocortex.java for summary of how a Neocortex is represented.
- * <p/>
+ * 
  * PROBLEM: When a user wants to create a Neocortex object that is too large for
  * the Java Heap. This is usually when you want to build a Neocortex with 0
  * .5+ million Neurons for a computer with 4GB of RAM.
- * <p/>
+ * 
  * SOLUTION: This class provides a easy to use API for creating your
  * Neocortex as separately
  * saved JSON files.

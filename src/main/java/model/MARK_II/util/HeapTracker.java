@@ -4,7 +4,7 @@ import java.io.IOException;
 
 /**
  * @author Q Liu (quinnliu@vt.edu)
- * @date 6/9/2015.
+ * 6/9/2015.
  */
 public class HeapTracker {
     private String allHeapData;
@@ -58,7 +58,7 @@ public class HeapTracker {
 
     /**
      * @param percentage a number between 0 and 1 representing percentage.
-     * @return True if used_heap/max_heap > percentage; otherwise return false.
+     * @return True if used_heap/max_heap greater than percentage; otherwise return false.
      */
     public boolean isUsedHeapPercentageOver(double percentage) {
         if (percentage < 0 || percentage > 1) {
