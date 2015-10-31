@@ -1,4 +1,5 @@
 language: java
+install: /bin/true
 before_script: compileJava jar
 script: javadoc test 
 cache:
