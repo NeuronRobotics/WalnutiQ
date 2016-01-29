@@ -12,7 +12,7 @@ import model.MARK_II.region.Region;
  * connections of synapses to active input cells and weakens the connections
  * of synapses to inactive input cells.
  *
- * This class solidfies these ideas into a deterministic SDR generation
+ * This class solidifies these ideas into a deterministic SDR generation
  * algorithm that works okay. Understanding how this algorithm compares
  * to SDRAlgorithm_2(with inhibition) will allow us to understand when it is
  * appropriate or not appropriate to use inhibition in SDRAlgorithms.

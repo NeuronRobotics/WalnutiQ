@@ -5,16 +5,17 @@
 # Java
 *.class
 
-# Gradle 
+# Gradle
 .gradle
 /build
 
-# IntelliJ 
+# IntelliJ
 .idea
 *.iml
 *.iws
 classes/
 
+<<<<<<< HEAD
 # Eclipse
 .classpath
 *.pydevproject
@@ -39,3 +40,7 @@ out/
 .project
 gradle.properties
 *~
+=======
+# Mac
+.DS_Store
+>>>>>>> d271c48a1d4cf41bdbccbbd6b6fd8de1b1133c44
