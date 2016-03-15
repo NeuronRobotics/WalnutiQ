@@ -89,7 +89,7 @@ public class Retina {
     /**
      * Update the state of the OldRetina with the given .bmp file name.
      *
-     * @param BMPFileName
+     * @param fileName
      * @throws IOException
      */
     public void seeBMPImage(File fileName) throws IOException {
@@ -106,7 +106,7 @@ public class Retina {
     /**
      * Update the state of the OldRetina with the given .bmp file name.
      *
-     * @param BMPFileName
+     * @param image
      * @throws IOException
      */
     public void seeBMPImage(BufferedImage image) throws IOException {
