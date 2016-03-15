@@ -3,6 +3,7 @@ package model.MARK_II.sensory;
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.IOException;
 
 /**
@@ -83,6 +84,32 @@ public class Retina {
         } catch (IOException e) {
             // nothing
         }
+        seeBMPImage(image);
+    }
+    /**
+     * Update the state of the OldRetina with the given .bmp file name.
+     *
+     * @param BMPFileName
+     * @throws IOException
+     */
+    public void seeBMPImage(File fileName) throws IOException {
+
+        BufferedImage image = null;
+        try {
+            image = ImageIO.read(fileName);
+        } catch (IOException e) {
+            // nothing
+        }
+        seeBMPImage(image);
+    }
+    
+    /**
+     * Update the state of the OldRetina with the given .bmp file name.
+     *
+     * @param BMPFileName
+     * @throws IOException
+     */
+    public void seeBMPImage(BufferedImage image) throws IOException {
 
         int numberOfRows = this.visionCells.length;
         int numberOfColumns = this.visionCells[0].length;
