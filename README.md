@@ -7,14 +7,13 @@
 
 # wAlnut
 
-"*Why must our bodies break down and living cease? We have domesticated the 
-entire planet to our whim. We have supercomputers that fit in our pockets, 
-multiple on your person right now. We make space probes, engineered down to the 
-micron, to send as far as Jupiter. We can make atomic bombs that can kill a 
-great many of us at once.*"  
-  
-~ Cheryl Wu aka [grungerabbit](http://grungerabbit.com)
+"*I wish I'd had the courage to live a life true to myself, not the life others
+expected of me. I mean it, promise this dying women that you will always be
+true to yourself, that you will be brave enough to live the way you want to live
+regardless of what other poeple say.*" 
 
+~ Grace
+  
 [![Build Status](https://travis-ci.org/WalnutiQ/wAlnut.svg?branch=master)](https://travis-ci.org/WalnutiQ/wAlnut)
 
 ## Why
@@ -421,22 +420,8 @@ beautiful ideas I have yet to learn.
 Outside of AI I like to make YouTube videos, skateboard, watch rom coms, and
 walk around manhattan eating pistachio ice cream and watermelon.
 
-#### Aarathi's bio
-Coming soon she says...
-
-#### Manpreet's bio
-Coming soon he says...
-
-#### Kevins's bio
-[Kevin Harrington](https://github.com/madhephaestus) is a java developer and roboticist based in Worcester MA. He brings robotics controls, high performance Java, and hardware integration skills to the project. He will be focused on sensor-motor interfaces and simulationg the robot for learning environments. 
-
 #### Mark's bio
 Hi, I'm Mark. I like math, sometimes.
-
-#### Your bio
-Interested in helping us code an intelligent machine? Read [how you can get paid an
-hourly rate to code wAlnut](https://github.com/WalnutiQ/wAlnut/wiki/How-to-get-paid-hourly-rate-to-code-wAlnut)
-to get started.
 
 ## Investors
 
@@ -471,9 +456,10 @@ a laptop, internet, and a little bit of curiosity.
 
 ## Master Investors List
 
-Name | Amount (USD) | Favorite type of nut | website
------|--------------|----------------------|---------
-Q Liu            | $700.82 | Pistachio ice cream | [www.youtube.com/quinnliuvideos](www.youtube.com/quinnliuvideos)
-Frederick Scholl | $10     | Unkown              | A Mystery
-Perry Leong      | $5      | Cashews             | [linkedin.com/profile/view?id=183115052](linkedin.com/profile/view?id=183115052)
-Ying Ying Wu     | $5      | Unkown              | A Mystery
+Name               | Amount (USD) | Favorite nut         | Website
+-------------------|--------------|----------------------|---------
+Q Liu              | $700.82      | Pistachio ice cream  | [youtube](www.youtube.com/quinnliuvideos)
+Aarathi Raghuraman | $140         | Acorn                | [linkedin](https://www.linkedin.com/in/aarathi-raghuraman-223a0259)
+Frederick Scholl   | $10          | Beech                | A mystery
+Perry Leong        | $5           | Cashews              | [linkedin](linkedin.com/profile/view?id=183115052)
+Ying Ying Wu       | $5           | Breadnut             | A mystery
