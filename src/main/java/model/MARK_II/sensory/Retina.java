@@ -79,11 +79,9 @@ public class Retina {
     public void seeBMPImage(String BMPFileName) throws IOException {
 
         BufferedImage image = null;
-        try {
-            image = ImageIO.read(getClass().getResource(BMPFileName));
-        } catch (IOException e) {
-            // nothing
-        }
+        
+        image = ImageIO.read(getClass().getResource(BMPFileName));
+
         seeBMPImage(image);
     }
     /**
@@ -95,11 +93,9 @@ public class Retina {
     public void seeBMPImage(File fileName) throws IOException {
 
         BufferedImage image = null;
-        try {
-            image = ImageIO.read(fileName);
-        } catch (IOException e) {
-            // nothing
-        }
+  
+        image = ImageIO.read(fileName);
+
         seeBMPImage(image);
     }
     
